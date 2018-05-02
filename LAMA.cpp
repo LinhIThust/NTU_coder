@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 #include<string>
-#define I 5
-#define X 10
 using namespace std;
 map<char ,int > A;
 
