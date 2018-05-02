@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+void vongtay(int day){
+int n = day/7;
+if(n %2 == 0) printf("%d %d",7-day%7,day %7);
+	else printf("%d %d",day%7,7-day%7);
+}
+int main(){
+int n;
+scanf("%d",&n);
+vongtay(n);
+}
